@@ -5,7 +5,7 @@ int main(void) {
 
     printf("이름: \n");
     scanf_s("%s", name);
-    printf("이름: %s\n", name);
+    printf("이름: %s\n", name, sizeof(name));
 
     int age;
 
@@ -27,7 +27,7 @@ int main(void) {
     char what[256];
     printf("범죄 종류: ");
     scanf_s("%s", what);
-    printf("범죄 종류: %s", what);
+    printf("범죄 종류: %s", what, sizeof(what));
 
     return 0;
 }
