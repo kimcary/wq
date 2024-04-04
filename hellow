@@ -1,6 +1,33 @@
 #inculud <stdio.h>
 
 int main(void) {
-    console.log("Hellow")
+    char name[256];
 
+    printf("이름: \n");
+    scanf_s("%s", name);
+    printf("이름: %s\n", name);
+
+    int age;
+
+    printf("나이: \n");
+    scanf_s("%d", age);
+    printf("나이: %d\n", age);
+
+    float weight;
+
+    printf("몸무게: \n");
+    scanf_s("%f", weight);
+    printf("몸무게: %.1f\n", weight);
+
+    double height;
+    printf("키: \n");
+    scanf_s("%lf", height);
+    printf("키: %.1lf", height);
+
+    char what[256];
+    printf("범죄 종류: ");
+    scanf_s("%s", what);
+    printf("범죄 종류: %s", what);
+
+    return 0;
 }
