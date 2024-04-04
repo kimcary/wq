@@ -1,0 +1,6 @@
+#inculud <stdio.h>
+
+int main(void) {
+    console.log("Hellow")
+
+}
